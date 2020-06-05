@@ -6,13 +6,23 @@ const Experience = () => {
       <h3>Expérience</h3>
         <div className="exp-1">
           <h4>Teacher Assistant</h4>
-          <h5>Mai-2020</h5>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum cum eum, ipsum quae exercitationem explicabo temporibus deserunt officia amet esse perspiciatis commodi quidem autem sequi sunt atque? Facere, veritatis. Voluptatum ipsam quaerat explicabo, molestiae sequi labore ipsum eos id facilis?</p>
+          <h5>Depuis Mai-2020</h5>
+          <p>Actuellement teacher assistant chez Le Wagon Lyon, j'aide les étudiants dans leur apprentissage des bases du code. J'interviens sur Ruby, Rails, JavaScript et HTML&CSS.
+          J'assiste aussi les professeurs titulaires sur les projets de fin de formation des étudiants
+          </p>
         </div>
         <div className="exp-2">
           <h4>Formation Le Wagon</h4>
           <h5>Janvier 2020 - Mars 2020</h5>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel ad obcaecati quam enim aliquid optio nam alias, aspernatur, corporis blanditiis fugit dolorum nihil cupiditate facere commodi possimus voluptatum nostrum omnis voluptate vitae nobis. Maiores non similique ipsum laudantium voluptates tempora!</p>
+          <p>Bootcamp intensif de 9 semaines formant sur le Développement Web Back-end & Front-end:</p>
+          <ul>
+            <li> - Programmation en Ruby avec le framework Rails</li>
+            <li> - HTML, CSS et JavaScript</li>
+            <li> - Architecture Modèle Vue Contrôleur (MVC)</li>
+            <li> - Logiciel de gestion de versions décentralisé (Git) et Github</li>
+            <li> - Base de données, SQL et ORM (ActiveRecord)</li>
+            <li> - Projet (Gociné.club) </li>
+          </ul>
         </div>
       </div>
   );

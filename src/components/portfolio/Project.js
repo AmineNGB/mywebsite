@@ -12,10 +12,8 @@ export default class componentName extends Component {
   }
 
   render() {
-    const {name, languagesIcons, source, info, picture} = this.props.item;
-
-    console.log(this.props);
-    
+    const {name,address, languagesIcons, source, info, picture} = this.props.item;
+  
 
     return (
       <div className="project">
@@ -28,24 +26,21 @@ export default class componentName extends Component {
         <h3>{name}</h3>
         <img src={picture} onClick={this.handleInfo} alt=""/>
         <span className="infos" onClick={this.handleInfo}>
-          <i className="fas fa-plus-circle"></i>
+          <i className="fas fa-info-circle"></i>
         </span>
 
         {
           this.state.showInfo && (
             <div className="showInfos">
               <div className="infosContent">
-                
                 <div className="head">
-                  <h2>{name}</h2>
+                  <a href={address} rel="noopener noreferrer" target="_blank" className="button">Site web</a>
                   <div className="sourceCode">
-                    <a href={source} rel="noopener noreferrer" className="button" target="_blank">Code source</a>
+                    <a href={source} rel="noopener noreferrer" className="button" target="_blank">Repo Github</a>
                   </div>
-                </div>
-                
+                </div> 
                 <p className="text">{info}</p>
-
-                <div className="button return" onClick={this.handleExit}>Retourner sur la page</div>
+                <div className="button return" onClick={this.handleInfo}>Retourner sur la page</div>
               </div>
             </div>
           )

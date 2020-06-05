@@ -18,8 +18,8 @@ const Hobbies = () => {
           <span>Photographie</span>
         </li>
         <li className="hobby">
-          <i className="fab fa-song"></i>
-          <span>Piano</span>
+          <i className="fas fa-cubes"></i>
+          <span>Impression 3D</span>
         </li>
         
       </ul>
