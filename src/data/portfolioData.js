@@ -4,7 +4,7 @@ export const portfolioData = [
     name: 'GoCiné',
     address: 'http://gocine.club/',
     languages: ['rails','css'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
+    languagesIcons: ['fab fa-js','devicon-rails-plain'],
     source: 'https://github.com/AmineNGB/Gocine',
     info: 'Application Web permettant d\'organiser une sortie cinéma entre amis où le choix du film correspond aux attentes de tout le monde.',
     picture: './media/gocine.jpg'
@@ -14,9 +14,9 @@ export const portfolioData = [
     name: 'Resistenfance',
     address: 'http://resistenfance.herokuapp.com/',
     languages: ['javascript','css', 'rails'],
-    languagesIcons: ['fab fa-js','fab fa-css3-alt'],
+    languagesIcons: ['fab fa-js','fab fa-css3-alt','devicon-rails-plain'],
     source: 'https://github.com/MathLebl/Resistenfance',
-    info: 'Site web créé pour une chronique de radio, qui permet aux enfants de faire passer leurs messages pendant le confinement.',
+    info: 'Site web créé pour une chronique de radio, qui permet aux enfants de poster leurs messages pendant le confinement.',
     picture: './media/resistenfance.jpg'
   },
   {
@@ -24,7 +24,7 @@ export const portfolioData = [
     name: 'Planetwork',
     address: 'http://planetwork.herokuapp.com/',
     languages: ['html','rails','css'],
-    languagesIcons: ['fab fa-js','fab fa-php','fab fa-css3-alt'],
+    languagesIcons: ['fab fa-js','devicon-rails-plain','fab fa-css3-alt'],
     source: 'https://github.com/AmineNGB/PlanetWork',
     info: '',
     picture: '../media/planetwork.jpg'

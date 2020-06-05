@@ -19,7 +19,7 @@ const Experience = () => {
             <li> - Programmation en Ruby avec le framework Rails</li>
             <li> - HTML, CSS et JavaScript</li>
             <li> - Architecture Modèle Vue Contrôleur (MVC)</li>
-            <li> - Logiciel de gestion de versions décentralisé (Git) et Github</li>
+            <li> - Gestion de versions décentralisé (Git, Github)</li>
             <li> - Base de données, SQL et ORM (ActiveRecord)</li>
             <li> - Projet (Gociné.club) </li>
           </ul>

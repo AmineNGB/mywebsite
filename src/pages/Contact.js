@@ -21,13 +21,13 @@ class contact extends Component {
             <li>
               <i className="fas fa-mobile-alt"></i>
               <CopyToClipboard text="0612241326">
-                <span className="clickInput" onClick={() => { alert('Numéro de téléphone copié !'); }}>06 12 24 13 26</span>
+                <span className="clickInput" onClick={() => { alert('Numéro de téléphone copié !'); }}>06 12 24 13 26<i class="fas fa-copy copy"></i></span>
               </CopyToClipboard>
             </li>
             <li>
               <i className="far fa-envelope"></i>
               <CopyToClipboard text="amineneghbel@gmail.com">
-                <span className="clickInput" onClick={() => { alert('E-mail copié !'); }}>amineneghbel@gmail.com</span>
+                <span className="clickInput" onClick={() => { alert('E-mail copié !'); }}>amineneghbel@gmail.com<i class="fas fa-copy copy"></i></span>
               </CopyToClipboard>
             </li>
           </ul>

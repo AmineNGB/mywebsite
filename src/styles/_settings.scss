@@ -1,18 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Josefin+Sans:wght@100&family=Nova+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&display=swap');
 
-$font-1: 'Nova Round', cursive;
+$font-1: 'Roboto mono', monospace;
 $font-2: 'Dosis', sans-serif;
 $font-3: 'Josefin Sans', serif;
 
-$color-1: #2a1d52;
-$color-2: #6C77F4;
+$color-1: #0A090F;
+$color-2: #D0D0D2;
 $color-3: rgb(99, 164, 233);
 $color-4: #4FEDD2;
-$color-5: #36D0EA;
-$white: #ddd;
-$black: #333;
+$color-5: red;
+$white: #FFFFFF;
+$black: #110F20;
 
-$borderRadius: 25px;
+$borderRadius: 12px;
 $shadow: 0 1px 3px #333;
 $minHeight: 95vh;
 
@@ -32,7 +33,7 @@ body {
   font-family: $font-1;
   color: $black;
   background-image: url('https://static.wixstatic.com/media/11062b_192a700eda24470892b064ae68400512f000.jpg/v1/fill/w_1920,h_783,al_c,q_85/11062b_192a700eda24470892b064ae68400512f000.webp');
-  background-size: cover;
+  background-size: fit;
 }
 button {
   cursor: pointer;

@@ -1,12 +1,11 @@
 import React from 'react';
 
 const ProgressBar = (props) => {
-  console.log(props);
 
   return (
     <div className={props.className}>
       <h3>{props.title}</h3>
-      <div className="years">
+      <div className="levels">
         <span>Niveau d'expériences</span>
         <span>débutant</span>
         <span>intermédiaire</span>
@@ -15,8 +14,8 @@ const ProgressBar = (props) => {
       <div>
         {
           props.languages.map((item) => {
-            let xpYears = 2;
-            let progressBar = item.xp / xpYears * 100 + '%';
+            let xpLevels = 2;
+            let progressBar = item.xp / xpLevels * 100 + '%';
 
               return (
                 <div key={item.id} className="languagesList">

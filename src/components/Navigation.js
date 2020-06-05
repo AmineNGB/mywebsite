@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
-
+ 
   return(
     <div className="sidebar"> 
 
@@ -45,22 +45,20 @@ const Navigation = () => {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/amine-neghbel-92a40216b/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
           </li>
           <li>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+            <a href="https://github.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
           </li>
           <li>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a href="https://twitter.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
           </li>
           <li>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-codepen"></i></a>
+            <a href="https://www.malt.fr/profile/amineneghbel" target="_blank" rel="noopener noreferrer"><img src="./media/malt.png" color="none" width="25" height="25" alt="malt-img"/></a>
           </li>
         </ul>
         <div className="signature">
-          <a href="https://www.youtube.com/channel/UCHGLV13U7YRbjrKpqfbtyYg/videos" target="_blank" rel="noopener noreferrer">
-            <p>Développé par Amine NEGHBEL © 2020</p>
-          </a>
+          <p>Développé par Amine NEGHBEL © 2020</p>
         </div>
       </div>
     </div>
