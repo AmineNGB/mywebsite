@@ -22,7 +22,7 @@
     box-shadow: $shadow;
 
     li {
-      color: $color-3;
+      color: $color-2;
       font-size: 1.1rem;
       text-transform: uppercase;
       padding: 0 1rem;
@@ -43,7 +43,7 @@
           height: .9rem;
           width: .9rem;
           border-radius: 50%;
-          border: 2px solid $color-4;
+          border: 2px solid $color-2;
           cursor: pointer;
           transition: 0.3s;
         }
@@ -58,7 +58,7 @@
           border-radius: 50%;
           cursor: pointer;
           transition: 0.3s;
-          background: $color-4;
+          background: $color-3;
           transform: scale(0);
           transform-origin: center;
         }
@@ -69,7 +69,8 @@
         left: -6px;
       }
       input:checked + label {
-        color: $color-4;
+        color: $color-3;
+        border-bottom: solid;
       }
       label {
         cursor: pointer;
@@ -83,7 +84,7 @@
     justify-content: space-around;
 
     .project {
-      background: $color-2;
+      background: $color-1;
       border-radius: $borderRadius;
       margin: 0.5rem 0 0 0;
       text-align: center;
@@ -106,19 +107,20 @@
       @include verticalCenter;
 
       i {
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         padding: 0 .35rem;
-        color: $color-5;
-        text-shadow: 0 0px 1px $color-1;
+        color: $color-2;
+        text-shadow: 0 0px 1px $color-2;
       }
     }
     h3 {
       grid-area: 2;
       font-family: $font-2;
+      color: $color-2;
       font-size: 1.65rem;
       @include verticalCenter;
       justify-content: left;
-
+      padding-left: 5px;
     }
     img {
       grid-area: 3;
@@ -126,14 +128,14 @@
       margin: 0 auto;
       width: 100%;
       height: 55%;
-      box-shadow: 0 2px 6px #333;
+      // box-shadow: 0 2px 6px #333;
       border-radius: 4px;
       cursor: pointer;
       @include verticalCenter;
     }
     .infos {
       grid-area: 4;
-      color: $color-4;
+      color: $color-2;
       cursor: pointer;
       font-size: 1.5rem;
       @include verticalCenter;
@@ -162,7 +164,7 @@
         background: $color-1;
         border-radius: $borderRadius;
         padding: 2rem;
-        box-shadow: 0 10px 10px #333;
+        box-shadow: 0 3px 3px #333;
         animation: popup .6s ease forwards;
         transform: scale(0);
         transform-origin: center;
@@ -174,18 +176,18 @@
         }
       }
       .head {
-        display: flex;
-        justify-content: space-around;
         margin: 1rem 0;
       }
-      h2 {
-        text-align: left;
-        margin-bottom: 1rem;
+
+      .sourceCode {
+        display: flex;
+        justify-content: space-between;
       }
+
       .button {
         cursor: pointer;
         color: $color-1;
-        background: $color-5;
+        background: $color-2;
         border-radius: $borderRadius;
         padding: 1rem;
         transition: .2s;

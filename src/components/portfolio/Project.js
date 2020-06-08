@@ -34,8 +34,8 @@ export default class componentName extends Component {
             <div className="showInfos">
               <div className="infosContent">
                 <div className="head">
-                  <a href={address} rel="noopener noreferrer" target="_blank" className="button">Site web</a>
                   <div className="sourceCode">
+                    <a href={address} rel="noopener noreferrer" target="_blank" className="button">Site web</a>
                     <a href={source} rel="noopener noreferrer" className="button" target="_blank">Repo Github</a>
                   </div>
                 </div> 

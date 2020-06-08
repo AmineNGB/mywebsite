@@ -7,13 +7,16 @@ class Languages extends Component {
       {id: 1, value: "Javascript", xp:1.4},
       {id: 2, value: "Css", xp:1.8},
       {id: 3, value: "Html", xp:1.8},
-      {id: 4, value: "Ruby", xp:1.8}
+      {id: 4, value: "Ruby", xp:1.8},
+      {id: 5, value: "NodeJs", xp:1.1}
     ],
     frameworks: [
       {id: 1, value: "React", xp:1.4},
       {id: 2, value: "Bootstrap", xp:1.8},
       {id: 3, value: "Sass", xp:1.5},
       {id: 4, value: "Material UI", xp:1},
+      {id: 5, value: "MySQL", xp:1.1},
+      {id: 6, value: "MongoDB", xp:1.2}
     ]
   };
 

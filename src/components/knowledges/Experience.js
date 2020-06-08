@@ -14,15 +14,9 @@ const Experience = () => {
         <div className="exp-2">
           <h4>Formation Le Wagon</h4>
           <h5>Janvier 2020 - Mars 2020</h5>
-          <p>Bootcamp intensif de 9 semaines formant sur le Développement Web Back-end & Front-end:</p>
-          <ul>
-            <li> - Programmation en Ruby avec le framework Rails</li>
-            <li> - HTML, CSS et JavaScript</li>
-            <li> - Architecture Modèle Vue Contrôleur (MVC)</li>
-            <li> - Gestion de versions décentralisé (Git, Github)</li>
-            <li> - Base de données, SQL et ORM (ActiveRecord)</li>
-            <li> - Projet (Gociné.club) </li>
-          </ul>
+          <p>
+            Bootcamp intensif de 9 semaines formant sur le Développement Web Back-end & Front-end comme la programmation en Ruby avec le framework Rails, l'utilisation des technos comme HTML, CSS, JavaScript. Compréhension des architectures Modèle Vue Contrôleur (MVC), gestion de versions décentralisé (Git, Github), l'utilisation de base de données tel que SQL et ORM (ActiveRecord) ainsi que  la création de projet (pour ma part: Gociné.club)
+          </p>
         </div>
       </div>
   );

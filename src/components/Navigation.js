@@ -2,7 +2,6 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
- 
   return(
     <div className="sidebar"> 
 
@@ -54,7 +53,7 @@ const Navigation = () => {
             <a href="https://twitter.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
           </li>
           <li>
-            <a href="https://www.malt.fr/profile/amineneghbel" target="_blank" rel="noopener noreferrer"><img src="./media/malt.png" color="none" width="25" height="25" alt="malt-img"/></a>
+            <a href="https://www.malt.fr/profile/amineneghbel" target="_blank" rel="noopener noreferrer"><img src="./media/malt.png" width="26" height="26" alt="malt-img"/></a>
           </li>
         </ul>
         <div className="signature">
