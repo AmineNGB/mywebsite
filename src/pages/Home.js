@@ -10,7 +10,7 @@ const Home = () => {
         <div className="content">
           <h2>Amine NEGHBEL</h2>
           <Typical
-            steps={['Développeur Full Stack Débutant', 1000]}
+            steps={['Développeur Full Stack JS', 1000]}
             loop={1}
             wrapper="h3"
           />
