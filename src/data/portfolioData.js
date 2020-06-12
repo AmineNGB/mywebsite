@@ -26,7 +26,7 @@ export const portfolioData = [
     languages: ['html','rails','css'],
     languagesIcons: ['fab fa-js','devicon-rails-plain','fab fa-css3-alt'],
     source: 'https://github.com/AmineNGB/PlanetWork',
-    info: '',
+    info: 'PlanetWork vous permet de louer vos planètes préférées pour vos vacances !',
     picture: '../media/planetwork.jpg'
   },
   {

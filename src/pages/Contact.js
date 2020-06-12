@@ -34,21 +34,17 @@ class contact extends Component {
         </div>
         <div className="socialNetwork">
           <ul>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/amine-neghbel-92a40216b/" target="_blank" rel="noopener noreferrer">
               <h4>LinkedIn</h4>
               <i className="fab fa-linkedin"></i>
             </a>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/AmineNgb" target="_blank" rel="noopener noreferrer">
               <h4>Github</h4>
               <i className="fab fa-github"></i>
             </a>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+            <a href="https://twitter.com/AmineNgb" target="_blank" rel="noopener noreferrer">
               <h4>Twitter</h4>
               <i className="fab fa-twitter"></i>
-            </a>
-            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-              <h4>CodePen</h4>
-              <i className="fab fa-codepen"></i>
             </a>
           </ul>
         </div>
