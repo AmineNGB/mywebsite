@@ -40,7 +40,7 @@ export default class componentName extends Component {
                   </div>
                 </div> 
                 <p className="text">{info}</p>
-                <div className="button return" onClick={this.handleInfo}>Retourner sur la page</div>
+                <div className="button return" onClick={this.handleInfo}><i className="fas fa-times-circle"></i></div>
               </div>
             </div>
           )

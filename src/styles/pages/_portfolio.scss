@@ -224,10 +224,10 @@
 }
 @media (max-width: 520px){
   .radioDisplay {
-    display: none !important;
+    // display: none !important;
   }
   .portfolioContent {
-    grid-template-rows: 1fr !important;
+    // grid-template-rows: 1fr !important;
 
     .project {
       grid-template-rows: 30px 40px 80px 40px !important;
