@@ -15,6 +15,7 @@
       background: $color-1;
       border-radius: $borderRadius;
       padding: .8rem;
+      
     }
     h3 {
       font-size: 1.4rem;
@@ -108,6 +109,7 @@
       grid-area: E;
       margin: 0 0 .5rem .5rem;
       display: grid;
+      padding-left: 1.5rem;
       grid-template-columns: 1fr;
       grid-template-rows: 10% 1fr 1fr;
       grid-template-areas: 
@@ -144,6 +146,7 @@
     .otherSkills {
       grid-area: O;
       margin-right: 0.5rem;
+      padding-left: 1.5rem;
 
       .list {
         display: flex;

@@ -34,7 +34,7 @@ class contact extends Component {
         </div>
         <div className="socialNetwork">
           <ul>
-            <a href="https://www.linkedin.com/in/amine-neghbel-92a40216b/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/AmineNGB/" target="_blank" rel="noopener noreferrer">
               <h4>LinkedIn</h4>
               <i className="fab fa-linkedin"></i>
             </a>

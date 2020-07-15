@@ -5,10 +5,10 @@ import { portfolioData } from '../../data/portfolioData';
 export default class ProjectList extends Component {
   state = {
     radios: [
-      {id: 1, value: "javascript"},
-      {id: 2, value: "css"},
-      {id: 3, value: "react"},
-      {id: 4, value: "rails"}
+      {id: 1, value: "rails"},
+      {id: 2, value: "react"},
+      {id: 3, value: "javascript"},
+      {id: 4, value: "css"}
     ],
     projects:portfolioData,
     selectedRadio: "javascript"

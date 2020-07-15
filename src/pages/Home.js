@@ -9,12 +9,12 @@ const Home = () => {
       <div className="homeContent">
         <div className="content">
           <Typical
-            steps={['Développeur FullStack JS', 1000]}
+            steps={['Développeur FullStack', 1000]}
             loop={1}
             wrapper="h1"
           />
           <div className="pdf">
-            <a href="./media/Amine_Neghbel_Cv.pdf" download target="_blank">Télécharger CV</a>
+            <a href="./media/CV_Amine_NEGHBEL.pdf" download target="_blank">Télécharger CV</a>
           </div>
         </div>
       </div>

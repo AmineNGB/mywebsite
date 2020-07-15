@@ -44,7 +44,7 @@ const Navigation = () => {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/amine-neghbel-92a40216b/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a href="https://www.linkedin.com/in/AmineNGB/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
           </li>
           <li>
             <a href="https://github.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
