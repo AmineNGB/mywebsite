@@ -1,13 +1,13 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import Profil from "../media/amine.jpg";
 
 const Navigation = () => {
-  return(
-    <div className="sidebar"> 
-
+  return (
+    <div className="sidebar">
       <div className="id">
         <div className="idContent">
-          <img src="https://media-exp1.licdn.com/dms/image/C4D03AQE-yOt0XIGJUA/profile-displayphoto-shrink_200_200/0?e=1596067200&v=beta&t=JSuq9FXzXvu8jpCPT1EtO-a7ziLawfz5u0iA6qBxdlk" alt="profil-pic"/>
+          <img src={Profil} alt="profil-pic" />
           <h3>Amine NEGHBEL</h3>
         </div>
       </div>
@@ -44,16 +44,45 @@ const Navigation = () => {
       <div className="socialNetwork">
         <ul>
           <li>
-            <a href="https://www.linkedin.com/in/AmineNGB/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            <a
+              href="https://www.linkedin.com/in/AmineNGB/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-linkedin"></i>
+            </a>
           </li>
           <li>
-            <a href="https://github.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-github"></i></a>
+            <a
+              href="https://github.com/AmineNgb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-github"></i>
+            </a>
           </li>
           <li>
-            <a href="https://twitter.com/AmineNgb" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
+            <a
+              href="https://twitter.com/AmineNgb"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
           </li>
           <li>
-            <a href="https://www.malt.fr/profile/amineneghbel" target="_blank" rel="noopener noreferrer"><img src="./media/malt.png" width="26" height="26" alt="malt-img"/></a>
+            <a
+              href="https://www.malt.fr/profile/amineneghbel"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="./media/malt.png"
+                width="26"
+                height="26"
+                alt="malt-img"
+              />
+            </a>
           </li>
         </ul>
         <div className="signature">
@@ -61,7 +90,7 @@ const Navigation = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default Navigation;
